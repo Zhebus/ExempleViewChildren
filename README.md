@@ -1,2 +1,0 @@
-# ExempleViewChildren
-Created with CodeSandbox

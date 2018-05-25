@@ -1,0 +1,6 @@
+<liste-compte [valeur]="'test'"></liste-compte>
+<div *ngFor="let ligne of tableau; let i=index">
+	<liste-compte [(valeur)]="ligne.valeur" (blur)="blurListeCompte(i)"></liste-compte>
+</div>
+<button (click)="tableau.push({valeur: 'new'})">Add !</button>
+<button (click)="targetSecondElement()">Target it !</button>
